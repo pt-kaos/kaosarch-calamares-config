@@ -19,7 +19,7 @@ You can download the latest KaosArch ISO from [our SourceForge page](https://sou
 **KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
 
 This distribution was created using the excelent tutorial by [Eric Dubois](https://www.youtube.com/@ErikDubois)
-You can find the tutorial here: [](https://youtu.be/3jdKH6bLgUE)
+You can find the tutorial here: [YouTube](https://youtu.be/3jdKH6bLgUE)
 
 KaosArch is my personal choice:
 

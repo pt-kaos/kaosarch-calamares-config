@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  kiro
+componentName:  kaosarch
 
 
 ### WELCOME / OVERALL WORDING
@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         kiro
-    shortProductName:    kiro
-    version:             3.0
-    shortVersion:        3.0
-    versionedName:       kiro
-    shortVersionedName:  kiro
-    bootloaderEntryName: kiro
+    productName:         kaosarch
+    shortProductName:    kaosarch
+    version:             1.0
+    shortVersion:        1.0
+    versionedName:       kaosarch
+    shortVersionedName:  kaosarch
+    bootloaderEntryName: kaosarch
 
 # These images are loaded from the branding module directory.
 #
