@@ -8,13 +8,13 @@
 ######################################################################
 ######################################################################
 
-![KaosArch Logo](kiro-xfce.jpg)
+![KaosArch Logo](kaosarch-xfce.jpg)
 
-![KaosArch Logo](kiro-chadwm.jpg)
+![KaosArch Logo](kaosarch-chadwm.jpg)
 
 # Download
 
-You can download the latest KaosArch ISO from [our SourceForge page](https://sourceforge.net/projects/kiro/files/).
+You can download the latest KaosArch ISO from [our SourceForge page](https://sourceforge.net/projects/kaosarch/files/).
 
 **KaosArch** is a customizable Arch Linux ISO builder based on the ArcoLinux project. It provides a simple way to build your own Arch-based installation medium with your choice of packages, settings, and scripts.
 
@@ -44,7 +44,7 @@ KaosArch is my personal choice:
 - `archiso` package
 - Basic familiarity with Bash scripting and package management
 - Knowledge how to build ISOs - https://www.arcolinuxiso.com/a-comprehensive-guide-to-iso-building/
-- Playlist of all the KIRO videos - including the creation of BUILDRA based on KIRO
+- Playlist of all the kaosarch videos - including the creation of BUILDRA based on kaosarch
 
 https://www.youtube.com/watch?v=3jdKH6bLgUE&list=PLlloYVGq5pS71UubmlKjjw131PjixMIjW
 
@@ -61,4 +61,4 @@ Live long and prosper
 
 Make sure you read the major change at the bottom of the readme file on 
 
-https://github.com/kirodubes/kiro-iso
+https://github.com/kaosarchdubes/kaosarch-iso

@@ -1,4 +1,4 @@
-name: "kiro_final"
+name: "kaosarch_before"
 type: "job"
 interface: "python"
 script: "main.py"

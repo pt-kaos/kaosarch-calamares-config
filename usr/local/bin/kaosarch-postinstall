@@ -113,7 +113,7 @@ virtual_machine_cleanup() {
 #========== MAIN EXECUTION ==========
 
 echo -e "${BLUE}######################################################"
-echo -e "#     Begin kiro-postinstall"
+echo -e "#     Begin kaosarch-postinstall"
 echo -e "######################################################${RESET}"
 
 echo -e "${BLUE}###########################################"
@@ -137,5 +137,5 @@ echo -e "#      End virtual machine check"
 echo -e "########################################${RESET}"
 
 echo -e "${BLUE}######################################################"
-echo -e "#      End kiro-postinstall"
+echo -e "#      End kaosarch-postinstall"
 echo -e "######################################################${RESET}"

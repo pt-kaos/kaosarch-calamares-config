@@ -5,9 +5,10 @@ set -eo pipefail
 # Website   : https://www.erikdubois.be
 # Youtube   : https://youtube.com/erikdubois
 # Github    : https://github.com/erikdubois
-# Github    : https://github.com/kirodubes
-# Github    : https://github.com/buildra
-# SF        : https://sourceforge.net/projects/kiro/files/
+##################################################################################################################
+# Mofified by: Pedro Teodoro
+# Github    : https://github.com/pt-kaos
+#
 ##################################################################################################################
 #
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.

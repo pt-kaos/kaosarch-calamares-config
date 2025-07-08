@@ -1,4 +1,4 @@
-name: "kiro_before"
+name: "kaosarch_remove_nvidia"
 type: "job"
 interface: "python"
 script: "main.py"
