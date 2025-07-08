@@ -1,5 +1,4 @@
 #!/bin/bash
-set -euo pipefail
 #https://wiki.archlinux.org/index.php/DeveloperWiki:Building_in_a_Clean_Chroot
 
 destiny="/home/pedro/Programing/ArchISOs/KaosArch/kaosarch_repo/x86_64/"
@@ -17,15 +16,9 @@ updpkgsums
 
 makepkg -s
 
-echo "Moving created files to $destiny"
+echo "Moving created files to " $destiny
 echo "#############################################################################################"
-
-if ls ${search}*pkg.tar.zst 1> /dev/null 2>&1; then
-    mv ${search}*pkg.tar.zst "$destiny"
-else
-    echo "No package files found for $search."
-    exit 1
-fi
+mv $search*pkg.tar.zst $destiny
 
 echo "Cleaning up"
 echo "#############################################################################################"

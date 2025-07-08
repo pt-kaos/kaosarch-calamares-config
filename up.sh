@@ -26,13 +26,13 @@ set -eo pipefail
 
 # variables and functions
 workdir=$(pwd)
-dir="calamares-3.3.14.r39.g274996f"
+dir="calamares-3.3.14-01"
 source=" /home/pedro/Programing/ArchISOs/KaosArch/kaosarch-pkgbuild/"
 destiny="/home/pedro/Programing/ArchISOs/KaosArch/kaosarch-calamares-config/etc/calamares/pkgbuild/"
 
 ##################################################################################################################
 
-rm -r $destiny*
+#rm -r $destiny*
 cp -r $source$dir/* $destiny
 
 # Below command will backup everything inside the project folder
