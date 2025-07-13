@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-setxkbmap be
+setxkbmap pt
 sudo pacman -Syy
 sudo pacman -S sublime-text-4 --noconfirm --needed
 sudo pacman -S ripgrep --noconfirm --needed
