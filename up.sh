@@ -1,18 +1,8 @@
 #!/bin/bash
 set -eo pipefail
 ##################################################################################################################
-# Author    : Erik Dubois
-# Website   : https://www.erikdubois.be
-# Youtube   : https://youtube.com/erikdubois
-# Github    : https://github.com/erikdubois
-##################################################################################################################
-# Mofified by: Pedro Teodoro
+# Author    : Pedro Teodoro
 # Github    : https://github.com/pt-kaos
-#
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
 ##################################################################################################################
 #tput setaf 0 = black
 #tput setaf 1 = red
