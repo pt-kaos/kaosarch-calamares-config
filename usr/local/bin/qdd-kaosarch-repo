@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-echo '
-[kaosarch_repo]
-SigLevel = Never
-Server = https://pt-kaos.github.io/$repo/$arch
-' | sudo tee --append /etc/pacman.conf
-sudo pacman -Syyu
