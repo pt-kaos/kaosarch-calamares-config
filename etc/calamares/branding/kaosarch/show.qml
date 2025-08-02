@@ -33,7 +33,7 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background1
-            source: "01cal.jpg"
+            source: "01cal.png"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
             fillMode: Image.PreserveAspectCrop
@@ -48,7 +48,7 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background2
-            source: "02cal.jpg"
+            source: "02cal.png"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
             fillMode: Image.PreserveAspectCrop
@@ -62,7 +62,7 @@ Presentation
         anchors.verticalCenterOffset: 0
         Image {
             id: background4
-            source: "03cal.jpg"
+            source: "03cal.png"
             width: parent.width; height: parent.height
             verticalAlignment: Image.AlignTop
             fillMode: Image.PreserveAspectCrop
