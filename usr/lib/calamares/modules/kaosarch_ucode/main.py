@@ -4,8 +4,9 @@
 # === This file is part of Calamares - <http://github.com/calamares> ===
 #
 
-import libcalamares
 import subprocess
+
+import libcalamares
 from libcalamares.utils import target_env_call
 
 
@@ -39,9 +40,9 @@ class ConfigController:
         else:
             libcalamares.utils.debug("Unknown CPU vendor or detection failed.")
         
-        libcalamares.utils.debug("#################################")
+        libcalamares.utils.debug("=================================")
         libcalamares.utils.debug("End kaosarch_ucode")
-        libcalamares.utils.debug("#################################\n")
+        libcalamares.utils.debug("=================================\n")
 
     def run(self):
         self.handle_ucode()
@@ -50,8 +51,8 @@ class ConfigController:
 
 def run():
     """Post-install configuration tasks."""
-    libcalamares.utils.debug("#################################")
+    libcalamares.utils.debug("=================================")
     libcalamares.utils.debug("Start kaosarch_ucode")
-    libcalamares.utils.debug("#################################\n")
+    libcalamares.utils.debug("=================================\n")
     config = ConfigController()
     return config.run()

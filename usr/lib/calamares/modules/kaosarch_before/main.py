@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
 import os
-import time
 import shutil
 import subprocess
+import time
+
 import libcalamares
 from libcalamares.utils import check_target_env_call
+
 
 # === Utility: Wait for pacman lock ===
 def wait_for_pacman_lock(max_wait=30):
@@ -103,9 +105,9 @@ def move_mkinitcpio_preset():
 
 # === Main run function ===
 def run():
-    libcalamares.utils.debug("#################################")
+    libcalamares.utils.debug("=================================")
     libcalamares.utils.debug("Start kaosarch_before")
-    libcalamares.utils.debug("#################################\n")
+    libcalamares.utils.debug("=================================\n")
 
     for step_func in [
         wait_for_pacman_lock,
@@ -116,7 +118,7 @@ def run():
         error = step_func()
         if error:
             return error
-    libcalamares.utils.debug("#################################")
+    libcalamares.utils.debug("=================================")
     libcalamares.utils.debug("End kaosarch_before")
-    libcalamares.utils.debug("#################################\n")
+    libcalamares.utils.debug("=================================\n")
     return None

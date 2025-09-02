@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
 import os
-import time
 import subprocess
+import time
+
 import libcalamares
 from libcalamares.utils import check_target_env_call
+
 
 def kernel_cmdline(param_name, default=None):
     """Parse /proc/cmdline for a parameter value."""
@@ -47,9 +49,9 @@ def remove_nvidia_packages_from_target():
     return None
 
 def run():
-    libcalamares.utils.debug("#################################")
+    libcalamares.utils.debug("=================================")
     libcalamares.utils.debug("Start kaosarch_remove_nvidia")
-    libcalamares.utils.debug("#################################\n")
+    libcalamares.utils.debug("=================================\n")
 
     selection = kernel_cmdline("driver", default="free")
     libcalamares.utils.debug(f"Kernel parameter 'driver' = {selection}")
@@ -67,8 +69,8 @@ def run():
     else:
         libcalamares.utils.debug("Skipping NVIDIA removal because 'driver=free' not set.")
 
-    libcalamares.utils.debug("#################################")
+    libcalamares.utils.debug("=================================")
     libcalamares.utils.debug("End kaosarch_remove_nvidia")
-    libcalamares.utils.debug("#################################\n")
+    libcalamares.utils.debug("=================================\n")
 
     return None
